@@ -16,8 +16,12 @@ int main ()
 	//But on one line instead of three, because I'm cool like that
 	string filename = read("Please enter a filename:\n");
 	//Next...
-	//Do you remember how to open a file?
+	//Do you remember how to open a file? 
+	ifstream casefiles(filename);
+
 	//How to check to see if the file opened successfully?
+    
+
 	//How do you store data in a vector?
 	//How do you average values across a vector?
 }
